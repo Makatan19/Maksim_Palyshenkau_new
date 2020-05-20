@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обзор изображений WebP</title>
+    <style>
+        h3, h1 {
+            text-align: center;
+        }
+        body {
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        table {
+            margin: auto;
+            border: 1px solid grey;
+            border-collapse: collapse;
+        }
+        tr, td {
+            border: 1px solid grey;
+        }
+        th {
+            border: 1px solid grey;
+            text-align: center;
+        }
+        figure {
+            text-align: center;
+            padding: 10px;
+            display: block;
+            margin: 0 10px 10px 0;
+        }
+        </style>
+</head>
+<body>
+    <h1>
+        Обзор изображений в формате "WebP"
+    </h1>
+    <h3>
+        Что такое формат .webp
+    </h3>
+    <p>
+        WebP — формат изображений, созданный в 2010 году и развиваемый компанией Google. 
+        Этот формат обеспечивает сжатие изображений как с потерями, так и без потерь. Некоторые крупные компании, такие как Google, 
+        Facebook и eBay, советуют использовать данный формат для сжатия изображений. У формата есть, как достроинства, так и недостатки. 
+        Ниже на примерах мы сравним его с ".jpeg" и ".png".
+    </p>
+    <h3>
+        Преимущества и недостатки формата .webp
+    </h3>
+    <ul>
+        <li>WebP сжимает изображения без потерь на 26% лучше, чем PNG</li>
+        <li>WebP сжимает изображения с потерями лучше, чем JPEG на 25-34% при одинаковом индексе структурного сходства (SSIM)</li>
+        <li>WebP поддерживает прозрачность без потерь (известную, как альфа-канал) при увеличении размера всего лишь на 22%.</li>
+    </ul>
+    <p>
+        Среди преимуществ и недостатков можно выделить следующие:
+    </p>
+    
+    <table cellpadding="7">
+        <tr>
+            <th>Преимущества</th>
+            <th>Недостатки</th>
+        </tr>
+        <tr>
+            <td>Меньший размер файла</td>
+            <td>Плохая поддержка браузерами</td>
+        </tr>
+        <tr>
+            <td>Улучшенный алгоритм сжатия</td>
+            <td>Искажение имеет пластиковый вид</td>
+        </tr>
+        <tr>
+            <td>Более качественный переходы цвета</td>
+            <td>Неудобный интерфейс экспорта</td>
+        </tr>
+        <tr>
+            <td>Маска альфа-канала</td>
+            <td></td>
+        </tr>
+    </table>
+    <h3>
+        Примеры и сравнение формата .webp
+    </h3>
+    <p> Сравним 2 изображения. Одно из них в формате .webp, другое в формате .jpeg</p>
+    
+    <figure>
+            <img src="spider_jpg.jpg" alt="spider1" height="300" title="Человек-паук в формате JPEG">
+            <figcaption><em>Человек-паук в формате JPEG</em></figcaption>
+    </figure>
+    <figure>
+            <img src="spider_webp.webp" alt="spider2" height="300" title="Человек-паук в формате WEBP">
+            <figcaption><em>Человек-паук в формате WEBP</em></figcaption>
+    </figure>
+    <p>Как видно из изображений, они почти ничем не отличаются. Однако в формате jpeg файл весит 75 кБ, а в формате webp он весит в два раза меньше. 
+        При приближение, можно заметить небольшое искажение, но оно незначительно</p>
+
+    <h3>
+        Особенности вывода в различных браузерах
+    </h3>  
+    <p> 
+        WebP полностью поддерживается браузерами Chrome, Opera, Opera Mini, Android-браузер и Chrome для Android.<br>
+        Firefox, Internet Explorer и Safari не имеют полной поддержки, хотя у Firefox с WebP своя история.
+    </p>
+</body>
+</html>
