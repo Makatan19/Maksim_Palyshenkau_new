@@ -1,0 +1,25 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    text-indent: 5%;
+    text-align: justify;
+}
+table{
+    text-align: center;
+    border: 1px solid black;
+    border-spacing: 2x;
+}
+td, th, tr {
+    border: 1px solid black;
+    padding: 2px;
+}
