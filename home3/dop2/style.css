@@ -1,0 +1,30 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    font-size: 120%;
+    background-image: url(img/bg-lightl-904.jpg);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+h1{
+    text-decoration: solid;
+    text-align: center;
+}
+h3{
+    text-decoration: underline;
+    text-indent: 5%;
+}
+p{
+    text-indent: 5%;
+    text-align: justify;
+}
+ul{
+    list-style-type: circle;
+}
+#rectangle{
+    margin: 0 auto;
+    text-align: center;
+    border: solid 1px black;
+    width:300px;
+    height:50px;
+    background: #B0E000;
+}
