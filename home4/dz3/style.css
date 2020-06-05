@@ -1,0 +1,23 @@
+body{
+    background-image: url(img/bg.jpg);
+    color: cornsilk;
+    font-family: 'Spectral', serif;
+    font-size: 150%;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1, h2, h3{
+    text-align: center;
+}
+p{
+    text-indent: 1.5em;
+}
+.cards{
+    background-image: url(img/koloda.png);
+    background-repeat: no-repeat;
+    background-position: -250px -388px;
+    width: 130px;
+    height: 190px;
+}
+
