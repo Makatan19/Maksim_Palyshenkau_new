@@ -1,0 +1,38 @@
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: seashell;
+    font-size: 150%;
+    text-indent: 2em;
+    text-align: justify;
+}
+.syntax{
+    text-align: center;
+    white-space: pre-wrap;
+    margin: 0;
+}
+h1, h2, h3{
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+table{
+    margin: 0 auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 25px 10px 25px;
+}
+th{
+    text-align: center;
+    background-color: rgba(100, 28, 36, 0.5);
+}
+td.colOne{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
