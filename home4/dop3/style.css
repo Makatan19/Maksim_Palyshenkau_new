@@ -1,0 +1,9 @@
+body{
+    font-family: 'Pacifico', cursive;
+    font-size: 200%;
+}
+p{
+    margin: 0;
+    text-align: center;
+    padding: 50px;
+}
