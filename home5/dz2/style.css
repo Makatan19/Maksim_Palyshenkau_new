@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.topFutter{
+    background-color: #add8e6;
+    text-align: center;
+    padding: 1px;
+    text-transform: uppercase;
+    color: #0000ff;
+    padding: 10px;
+}
