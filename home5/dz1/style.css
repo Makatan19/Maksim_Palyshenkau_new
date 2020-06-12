@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+}
+.topAndFutterText{
+    text-align: center;
+    font-size: 48px;
+    color: #4658f4;
+}
+.topAndFutterBg{
+    background-color:#add8e6;
+}
+
+.firstColumn{
+    background-color: #f0e68c;
+    width: 250px;
+}
+.secondColumn{
+    background-image: url("img/ball.png"),;
+}
