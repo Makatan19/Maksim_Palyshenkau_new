@@ -4,33 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Макет табличной верстки</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        table{
+            width: 100%;
+            border: 0px solid balck;
+            border-collapse: collapse;
+        }
+        td,th{
+            padding: 20px;
+            vertical-align: top;
+        }
+        h1{
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
 </head>
 <body>
-    <table border="1">
-        <tr>
-            <td colspan="2" class="topAndFutterBg">
-                <div class="topAndFutterText">
+    <table>
+        <tr >
+            <td colspan="2", style="background-color: #add8e6;">
+                <h1 style="color: #0000ff;">
                     Привет участникам соревнований!
+                </h1>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 100px; background-color: #f0e68c;">
+                <p style="font-weight: bold;">Виды спорта:</p>
+                <ul style="padding: 0 0 0 20px;">
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%8C%D0%BA%D0%BE%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D0%BE%D1%80%D1%82"> 
+                        конькобежный спорт</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%B0%D1%82%D0%BB%D0%BE%D0%BD">биатлон</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB">футбол</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%B1%D0%B0_%D0%B8%D0%B7_%D0%BB%D1%83%D0%BA%D0%B0">стрельба из лука</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8B%D0%B6%D0%BE%D0%BA_%D0%B2_%D0%B4%D0%BB%D0%B8%D0%BD%D1%83">прыжки в длину</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8B%D0%B6%D0%BE%D0%BA_%D0%B2_%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D1%83">прыжки в высоту</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B3%D1%83%D1%80%D0%BD%D0%BE%D0%B5_%D0%BA%D0%B0%D1%82%D0%B0%D0%BD%D0%B8%D0%B5">фигурное катание</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">синхронное плавание</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B">шахматы</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%88%D0%BA%D0%B8">шашки</a></li>
+                </ul>
+            </td>
+            <td style="background: url(img/ball.png) right top repeat-y;">
+                <h1>Футбол</h1>
+                <div>
+                    <img src="img/players.jpeg" alt="win" title="Победа!" style="float: left; margin: 0px 20px 20px 0px; height: 140px; width: 213px;">
+                    <p>
+                        Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими частями тела (кроме рук) 
+                        большее количество раз, чем команда соперника.
+                    </p>
+                    <p>
+                        Есть 17 официальных правил игры, каждое из которых содержит список оговорок и руководящих принципов. Эти правила предназначены для 
+                        применения на всех уровнях футбола, хотя есть некоторые изменения для таких групп, как юниоры, взрослые, женщины и люди с ограниченными 
+                        физическими возможностями. Законы очень часто формулировались в общих чертах, которые позволяют упростить их применения в зависимости от характера игры.
+                    </p>
                 </div>
             </td>
         </tr>
         <tr>
-            <td>
-                <div class="firstColumn">
-                    Виды спорта
-                </div>
-            </td>
-            <td>
-                 Футбол
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2"class="topAndFutterBg">
-                <div class="topAndFutterText">
+            <td colspan="2", style="background-color: #add8e6;">
+                <h1 style="color: #0000ff;">
                     Главное не победа, а участие!
-                </div>
- 
+                </h1>
             </td>
         </tr>
     </table>
