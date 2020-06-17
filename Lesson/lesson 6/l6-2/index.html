@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            counter-reset: planet;
+        }
+        p::before{
+            counter-increment: planet;
+            content: 'Планета 'counter(planet)'.'
+        }
+    </style>
+
+</head>
+<body>
+    <h3>Планеты до земли</h3>
+        <p>Меркурий</p>
+        <p>Венера</p>
+    <h3>Планеты после земли</h3>
+        <p>Марс</p>
+        <p>Юпитер</p>
+        <p>Сатурн</p>
+</body>
+</html>
