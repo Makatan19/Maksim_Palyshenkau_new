@@ -1,0 +1,96 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    text-align: center;
+}
+div{
+    font-size: 14px;
+}
+a{
+    color: green;
+}
+a:hover{
+    color: red;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.firstWay{
+    margin-bottom: 24px;
+}
+.firstWay a{
+    border-right: 3px red solid;
+    padding: 5px 10px 10px 10px;
+}
+.firstWay a:last-child{
+    border-right: 0px;
+    padding: 0 10px 0 10px;
+}
+.firstWay a:first-child{
+    padding: 5px 10px 10px 0;
+}
+.secondWay{
+    margin-bottom: 12px;
+}
+.secondWay td{
+    border-right: 3px red solid;
+    padding: 5px 10px 10px 10px;
+}
+.secondWay td:last-child{
+    border-right: 0px;
+}
+.secondWay td:first-child{
+    padding: 5px 10px 10px 0;
+}
+.thirdWay{
+    margin-bottom: 24px;
+}
+.thirdWay p{
+    display: inline;
+    border-right: solid 3px red;
+    padding: 5px 10px 10px 10px;
+}
+.thirdWay p:last-child{
+    border-right: 0px;
+}
+.thirdWay p:first-child{
+    padding: 5px 10px 10px 0;
+}
+.fourthWay{
+    margin-bottom: 24px;
+}
+.fourthWay span{
+    border-right: solid 3px red;
+    padding: 5px 10px 10px 10px;
+}
+.fourthWay span:last-child{
+    border-right: 0px;
+}
+.fourthWay span:first-child{
+    padding: 5px 10px 10px 0;
+}
+.fifthWay div{
+    float: left;
+    border-right: solid 3px red;
+    padding: 5px 10px 10px 10px;
+}
+.fifthWay div:last-child{
+    border-right: 0px;
+}
+.fifthWay div:first-child{
+    padding: 5px 10px 10px 0;
+}
+.sixthWay div{
+    display: inline-block;
+    border-right: solid 3px red;
+    padding: 5px 10px 10px 10px;
+}
+.sixthWay div:last-child{
+    border-right: 0px;
+}
+.sixthWay div:first-child{
+    padding: 5px 10px 10px 0;
+}
