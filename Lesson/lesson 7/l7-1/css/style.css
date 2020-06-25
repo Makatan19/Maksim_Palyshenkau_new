@@ -3,13 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    overflow-x: hidden;
+}
 
 
 
 .sideMenu{
     background: #2F3032;
+    width: 176px;
+    float: left;
 }
 .content-wrap{
-
+    width: 100%;
+    margin-left: 176px;
 }
