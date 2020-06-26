@@ -1,0 +1,158 @@
+.latest_works{
+    height: 1617px;
+    text-align: center;
+}
+.latest_works_start{
+    width: 620px;
+}
+.latest_works_start p:first-child{
+    font-family: 'MyriadPro-Bold';
+    letter-spacing: 1px;
+    padding-top: 129px;
+    font-size: 30px;
+}
+.latest_works_start p:nth-child(2){
+    font-size: 15px;
+    margin-top: 36px;
+}
+.works_button{
+    margin-top: 111px;
+}
+.works_button ul{
+
+}
+.works_button ul li{
+    font-family: 'MyriadPro-Bold';
+    display: inline-block;
+    border: solid #00897B 3px;
+    font-size: 20px;
+    color: #212121;
+    height: 56px;
+    width: 180px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.works_button ul li:first-child{
+    width: 101px;
+    margin-right: 12px;
+}
+.works_button ul li a{
+    padding-top: 14px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.works_button ul li:hover{
+    background: #00897B;
+    color: #fff;
+}
+.our_works{
+    margin-top: 118px;
+}
+.our_works div{
+    display: inline-block;
+    height: 371px;
+    width: 371px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 29px;
+    background: url(../img/latest_works/item1.jpeg) center center no-repeat;
+}
+
+.our_works .works_item1{
+    background: url(../img/latest_works/item1.jpeg) 0% center no-repeat;
+}
+.our_works .works_item2{
+    background: url(../img/latest_works/item2.jpeg) center center no-repeat;
+}
+.our_works .works_item3{
+    background: url(../img/latest_works/item3.jpeg) center center no-repeat;
+}
+.our_works .works_item4{
+    background: url(../img/latest_works/item4.jpeg) center center no-repeat;
+}
+.our_works .works_item5{
+    background: url(../img/latest_works/item5.jpeg) center center no-repeat;
+}
+.our_works .works_item6{
+    background: url(../img/latest_works/item6.jpeg) center center no-repeat;
+}
+.works_button_futter{
+    margin-top: 91px;
+}
+.works_button_futter ul li{
+    font-family: 'MyriadPro-Bold';
+    display: inline-block;
+    border: solid #00897B 3px;
+    background: #00897B;
+    font-size: 20px;
+    color: #fff;
+    height: 71px;
+    width: 221px;
+}
+.works_button_futter ul li a{
+    padding-top: 21px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.our_works .works_item1:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url(../img/latest_works/item1.jpeg) 0% center no-repeat;
+}
+.our_works .works_item2:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url(../img/latest_works/item2.jpeg) center center no-repeat;
+}
+.our_works .works_item3:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url(../img/latest_works/item3.jpeg) center center no-repeat;
+}
+.our_works .works_item4:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url(../img/latest_works/item4.jpeg) center center no-repeat;
+}
+.our_works .works_item5:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url(../img/latest_works/item5.jpeg) center center no-repeat;
+}
+.our_works .works_item6:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url(../img/latest_works/item6.jpeg) center center no-repeat;
+}
+.our_works div p{
+    color: #fff;
+    opacity: 0;
+}
+.our_works div p:first-child{
+    padding-top: 163px;
+    font-size: 20px;
+    font-family: 'MyriadPro-Semibold';
+}
+.our_works div p:nth{
+    font-size: 15px;
+}
+.our_works .works_item1:hover p{
+    opacity: 1;
+}
+.our_works .works_item2:hover p{
+    opacity: 1;
+}
+.our_works .works_item3:hover p{
+    opacity: 1;
+}
+.our_works .works_item4:hover p{
+    opacity: 1;
+}
+.our_works .works_item5:hover p{
+    opacity: 1;
+}
+.our_works .works_item6:hover p{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+

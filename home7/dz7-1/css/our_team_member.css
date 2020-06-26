@@ -1,0 +1,68 @@
+.our_team_member{
+    text-align: center;
+    height: 1096px;
+    border: solid 1px black;
+}
+.our_team_member_start{
+    width: 620px;
+}
+.our_team_member_start p:first-child{
+    font-family: 'MyriadPro-Bold';
+    letter-spacing: 1px;
+    padding-top: 123px;
+    font-size: 30px;
+}
+.our_team_member_start p:nth-child(2){
+    font-size: 15px;
+    margin-top: 36px;
+}
+.members{
+    margin-top: 126px;
+}
+.members div{
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 371px;
+    height: 321px;
+}
+.member1{
+    background: url(../img/our_team_member/member1.jpeg) top center no-repeat;
+}
+.member2{
+    background: url(../img/our_team_member/member2.jpeg) top center no-repeat;
+}
+.member3{
+    background: url(../img/our_team_member/member3.jpeg) top center no-repeat;
+}
+.about_members div{
+    width: 371px;
+    height: 167px;
+    margin-right: 14px;
+    margin-left: 14px;
+    display: inline-block;
+}
+.about_members div p:first-child{
+    font-family: 'MyriadPro-Semibold';
+    padding-top: 38px;
+    font-size: 20px;
+    color: #212121;
+}
+.about_members div p:nth-child(2){
+    margin-top: 12px;
+    font-size: 15px;
+    color: #212121;
+}
+.about_members ul{
+    margin-top: 28px;
+}
+.about_members ul li{
+    display: inline-block;
+    height: 51px;
+    width: 51px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: #d6c1c1;
+}
