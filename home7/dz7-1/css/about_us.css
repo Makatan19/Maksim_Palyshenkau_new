@@ -1,0 +1,40 @@
+.about_us{
+background: #fff;
+height: 673px;
+color: #212121;
+text-align: center;
+}
+.about_us_start{
+    width: 620px;
+}
+
+.about_us_start p:first-child{
+    font-family: 'MyriadPro-Bold';
+    letter-spacing: 1px;
+    padding-top: 126px;
+    font-size: 30px;
+}
+.about_us_start p:nth-child(2){
+    font-size: 15px;
+    margin-top: 36px;
+}
+.about_us_advantages{
+    margin-top: 124px;
+}
+ .about_us_advantages div{
+     display: inline-block;
+     width: 254px;
+     margin-left: 74px;
+     margin-right: 74px;
+ }
+
+
+ .about_us_advantages div p:nth-child(2){
+     margin-top: 35px;
+     margin-bottom: 21px;
+     font-size: 20px;
+     font-family: 'MyriadPro-Semibold';
+ }
+ .about_us_advantages div p:nth-child(3){
+    font-size: 16px;
+}
