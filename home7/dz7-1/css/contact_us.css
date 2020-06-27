@@ -44,7 +44,7 @@
     color: #212121;
 }
 .contact_us_feedback_name div{
-    border-radius: 15px;
+    border-radius: 10px;
     display: inline-block;
     background: #fff;
     width: 501px;
@@ -53,5 +53,48 @@
     margin-left: 15px;
 }
 .contact_us_feedback_name div p{
+    text-align: left;
     font-size: 20px;
+    opacity: 0.8;
+    padding-left: 22px;
+    padding-top: 33px;
+}
+.contact_us_feedback_message{
+    margin-top: 32px;
+    color: #212121;
+}
+.contact_us_feedback_message{
+    border-radius: 10px;
+    display: inline-block;
+    background: #fff;
+    width: 1032px;
+    height: 324px;
+}
+.contact_us_feedback_message p{
+    text-align: left;
+    font-size: 20px;
+    opacity: 0.8;
+    padding-left: 22px;
+    padding-top: 30px;
+}
+.contact_us_feedback_send_button{
+    margin-top: 38px;
+    margin-left: 812px;
+}
+.contact_us_feedback_send_button ul li{
+    display: inline-block;
+    border-radius: 10px;
+    height: 71px;
+    width: 221px;
+    background: #fff;
+    color: #212121;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'MyriadPro-Bold';
+}
+.contact_us_feedback_send_button ul li a{
+    display: inline-block;
+    padding-top: 25px;
+    width: 100%;
+    height: 100%;
 }

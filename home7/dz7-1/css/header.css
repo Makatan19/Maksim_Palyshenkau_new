@@ -3,6 +3,9 @@
     height: 121px;
     color: #212121;
     font-size: 20px;
+    position: fixed;
+    width: 1401px;
+    border-bottom: 1px solid #000;
 }
 .header > img{
     float: left;
@@ -23,6 +26,7 @@
 
 }
 .header ul li{
+    font-family: 'MyriadPro-Semibold';
     display: inline-block;
     margin-left: 15px;
     margin-right: 15px;
@@ -30,3 +34,4 @@
 .header ul li:last-child{
     margin-right: 0;
 }
+
