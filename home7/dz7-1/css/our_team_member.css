@@ -1,7 +1,6 @@
 .our_team_member{
     text-align: center;
     height: 1096px;
-    border: solid 1px black;
 }
 .our_team_member_start{
     width: 620px;
@@ -9,7 +8,7 @@
 .our_team_member_start p:first-child{
     font-family: 'MyriadPro-Bold';
     letter-spacing: 1px;
-    padding-top: 123px;
+    padding-top: 113px;
     font-size: 30px;
 }
 .our_team_member_start p:nth-child(2){
@@ -64,5 +63,52 @@
     margin-right: 10px;
     margin-left: 10px;
     border-radius: 5px;
-    background: #d6c1c1;
+}
+.about_members .fb_for_members{
+    background: url(../img/our_team_member/social/fb_black.png) no-repeat center center,#d6c1c1;
+}
+.about_members .twitter_for_members{
+    background: url(../img/our_team_member/social/twitter_black.png) no-repeat center center,#d6c1c1;
+}
+.about_members .chat_for_members{
+    background:url(../img/our_team_member/social/chat_black.png) no-repeat center center, #d6c1c1;
+}
+.about_members .dribble_for_members{
+    background: url(../img/our_team_member/social/dribble_black.png) no-repeat center center,#d6c1c1;
+}
+.about_members ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.about_members .fb_for_members:hover{
+    background:url(../img/our_team_member/social/fb_white.png) no-repeat center center, #3949AB;
+}
+.about_members .twitter_for_members:hover{
+    background:url(../img/our_team_member/social/twitter_white.png) no-repeat center center, #3949AB;
+}
+.about_members .chat_for_members:hover{
+    background:url(../img/our_team_member/social/chat_white.png) no-repeat center center, #3949AB;
+}
+.about_members .dribble_for_members:hover{
+    background:url(../img/our_team_member/social/dribble_white.png) no-repeat center center, #3949AB;
+}
+.our_team_member .circle_under_members{
+    margin-top: 115px;
+}
+.our_team_member .circle_under_members li{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: url(../img/our_team_member/green_ball.png);
+}
+.our_team_member .circle_under_members li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.our_team_member .circle_under_members li:hover{
+    background: url(../img/our_team_member/blue_ball.png);
 }

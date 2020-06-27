@@ -1,0 +1,57 @@
+.contact_us{
+    text-align: center;
+    height: 1255px;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url(../img/contact_us/bg.jpeg);
+    background-repeat: no-repeat;
+    color: #fff;
+    background-position-x: 50%;
+}
+.contact_us_start{
+    width: 620px;
+}
+.contact_us_start p:first-child{
+    font-family: 'MyriadPro-Bold';
+    letter-spacing: 1px;
+    padding-top: 129px;
+    font-size: 30px;
+}
+.contact_us_start p:nth-child(2){
+    font-size: 15px;
+    margin-top: 36px;
+}
+.contact_us_contacts{
+    margin-top: 100px;
+}
+.contact_us_contacts div{
+    text-align: center;
+    padding-top: 145px;
+    display: inline-block;
+    height: 194px;
+    width: 259px;
+    font-size: 20px;
+}
+.contact_us_contacts .contact_us_address{
+    background: url(../img/contact_us/holder.png) no-repeat center 25px,url(../img/contact_us/blue_circle.png) no-repeat center top;
+}
+.contact_us_contacts .contact_us_phone{
+    background: url(../img/contact_us/phone.png) no-repeat center 23px,url(../img/contact_us/blue_circle.png) no-repeat center top;
+}
+.contact_us_contacts .contact_us_mail{
+    background: url(../img/contact_us/mail.png) no-repeat center 35px,url(../img/contact_us/blue_circle.png) no-repeat center top;
+}
+.contact_us_feedback_name{
+    margin-top: 75px;
+    color: #212121;
+}
+.contact_us_feedback_name div{
+    border-radius: 15px;
+    display: inline-block;
+    background: #fff;
+    width: 501px;
+    height: 85px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.contact_us_feedback_name div p{
+    font-size: 20px;
+}

@@ -1,0 +1,93 @@
+.blog{
+height: 1870px;
+text-align: center;
+background: #E4FDF9;
+}
+.blog_start{
+    width: 620px;
+}
+.blog_start p:first-child{
+    font-family: 'MyriadPro-Bold';
+    letter-spacing: 1px;
+    padding-top: 126px;
+    font-size: 30px;
+}
+.blog_start p:nth-child(2){
+    font-size: 15px;
+    margin-top: 29px;
+}
+.blog_all_content{
+    margin-top: 120px;
+    margin-left: 114px;
+    margin-right: 116px;
+}
+.blog_all_content .blog_content1 > img{
+    float: left;
+    width: 573px;
+    height: 402px;
+}
+.blog_all_content .blog_content1 div{
+    padding-left: 643px;
+    text-align: left;
+}
+.blog_all_content .blog_name{
+    color: #212121;
+    font-size: 25px;
+    font-family: 'MyriadPro-Semibold';
+    padding-top: 65px;
+    display: inline-block;
+    cursor: url(../img/blog/hand.png), pointer;
+}
+.blog_all_content .blog_name:hover{
+    color: #00897B;
+}
+.blog_all_content .blog_descreption{
+    margin-top: 28px;
+}
+.blog_all_content .blog_descreption img{
+    margin-right: 15px;
+}
+.blog_all_content .blog_descreption span{
+    display: inline-block;
+    margin-right: 40px;
+    font-family: 'MyriadPro-Semibold';
+}
+
+.blog_all_content .blog_descreption_text{
+    margin-top: 28px;
+    margin-right: 122px;
+}
+.blog_all_content .blog_descreption_text p{
+    color: #212121;
+    font-size: 15px;
+}
+.blog_all_content .blog_content2 > img{
+    float: right;
+    width: 573px;
+    height: 402px;
+}
+.blog_all_content .blog_content2 div{
+    text-align: left;
+}
+.blog_all_content .blog_content2 .blog_content2_descreption_text{
+    padding-right: 660px;
+}
+.blog_button_futter{
+    margin-top: 122px;
+}
+.blog_button_futter ul li{
+    font-family: 'MyriadPro-Bold';
+    display: inline-block;
+    border: solid #00897B 3px;
+    background: #00897B;
+    font-size: 20px;
+    color: #fff;
+    height: 71px;
+    width: 221px;
+}
+.blog_button_futter ul li a{
+    padding-top: 21px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
