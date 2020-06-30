@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+.author{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    color: black;
+}
+
+.birthday{
+    color: green; 
+    font-style: normal;
+}
+
+.champion{
+    color: red; 
+    font-style: normal;
+    font-weight: bold;
+}
+
+.mainText{
+    font-style: italic;
+    color: blue;   
+}
+a::before{
+    content: url(img/extref.png);
+}
+a:first-child::before{
+    content: "";
+}
