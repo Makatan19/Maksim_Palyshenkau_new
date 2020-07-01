@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+ul{
+    list-style-type: none;
+}
+header{
+    height: 80px;
+    background-color: #234567;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 16px;
+}
+
+#switcher {
+    position: absolute;
+    left: -999999999px;
+    visibility: hidden;
+}
+
+.menu__link{
+    color: white;
+    padding: 8px;
+}
+.menu{
+    display: flex;
+}
+.close, .open{
+    color: white;
+    font-size: 24px;
+    display: none;
+}
+#switcher:checked ~ nav {
+    left: 0;
+}
+.close{
+    position: absolute;
+    right: 24px; 
+    top: 24px;
+}
+
