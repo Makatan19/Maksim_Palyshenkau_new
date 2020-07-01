@@ -1,0 +1,20 @@
+@import "style.css";
+
+@media all and (max-width: 914px){
+    .banner, .menu{
+        height: 300px;
+    }
+    .banner{
+        background-color: lightblue;
+    }
+    .menu{
+        background-color: lightsalmon;
+    }
+
+}
+@media all and (max-width: 727px){
+    .menu, .banner{
+        width: 100%;
+        float:none;
+    }
+}
