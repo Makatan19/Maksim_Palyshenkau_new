@@ -17,9 +17,9 @@ background: #E4FDF9;
     margin-top: 29px;
 }
 .blog_all_content{
-    margin-top: 120px;
-    margin-left: 114px;
-    margin-right: 116px;
+    width: 1440px;
+    margin: 120px auto 0 auto;
+    
 }
 .blog_all_content .blog_content1 > img{
     float: left;

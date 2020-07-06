@@ -4,7 +4,7 @@
     color: #212121;
     font-size: 20px;
     position: fixed;
-    width: 1401px;
+    width: 100%;
     border-bottom: 1px solid #000;
 }
 .header > img{

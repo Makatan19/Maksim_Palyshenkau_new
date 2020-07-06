@@ -17,6 +17,7 @@
 }
 .works_button{
     margin-top: 111px;
+    margin-bottom: 118px;
 }
 .works_button ul{
 
@@ -46,9 +47,7 @@
     background: #00897B;
     color: #fff;
 }
-.our_works{
-    margin-top: 118px;
-}
+
 .our_works div{
     display: inline-block;
     height: 371px;

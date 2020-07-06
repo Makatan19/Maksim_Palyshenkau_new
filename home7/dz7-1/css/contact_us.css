@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     color: #fff;
     background-position-x: 50%;
+    background-size: cover;
 }
 .contact_us_start{
     width: 620px;
