@@ -1,0 +1,41 @@
+.achievements{
+    background: #162B45;
+    text-align: center;
+    padding-top: 111px;
+}
+.achievements div{
+    text-align: left;
+    display: inline-block;
+    margin-left: 48px;
+    margin-right: 48px;
+    height: 155px;
+    width: 220px;
+    margin-bottom: 107px;
+}
+.achievements div p{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding-top: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.achievements div p:first-of-type{
+    font-size: 60px;
+    margin-right: 10px;
+}
+.achievements div p:last-of-type{
+    font-size: 22px;
+}
+.achievement_1{
+    background: url(../img/achievements/achievements1.png) no-repeat left top;
+}
+.achievement_2{
+    background: url(../img/achievements/achievements2.png) no-repeat left top;
+}
+.achievement_3{
+    background: url(../img/achievements/achievements3.png) no-repeat left top;
+}
+.achievement_4{
+    background: url(../img/achievements/achievements4.png) no-repeat left top;
+}

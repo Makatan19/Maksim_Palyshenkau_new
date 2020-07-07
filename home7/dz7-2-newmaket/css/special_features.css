@@ -1,0 +1,52 @@
+.special_features{
+    text-align: center;
+    background: url(../img/special_features/round_blue3.png) no-repeat 148px 540px;
+}
+.special_features p:first-of-type{
+    padding-top: 49px;
+    margin-bottom: 24px;
+}
+.special_features div{
+    display: inline-block;
+    width: 264px;
+    height: 356px;
+    border: #f6f7fb 5px solid;
+    margin: 78px 14px 100px 14px;
+}
+.special_features div p:first-of-type{
+    color: #233646;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 142px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.special_features div p:last-of-type{
+    display: inline-block;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 211px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.special_features div:hover{
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 20px rgba(182, 170, 169, 0.5);
+}
+.special_features .special_features_1{
+    background: url(../img/special_features/design.png) no-repeat 50% 63px,
+                url(../img/special_features/div1.png) no-repeat 50% 48px;
+}
+.special_features .special_features_2{
+    background: url(../img/special_features/quality.png) no-repeat 50% 63px,
+                url(../img/special_features/div2.png) no-repeat 50% 48px;
+}
+.special_features .special_features_3{
+    background: url(../img/special_features/service.png) no-repeat 50% 63px,
+                url(../img/special_features/div3.png) no-repeat 50% 48px;
+}
+.special_features .special_features_4{
+    background: url(../img/special_features/support.png) no-repeat 50% 63px,
+                url(../img/special_features/div4.png) no-repeat 50% 48px;
+}

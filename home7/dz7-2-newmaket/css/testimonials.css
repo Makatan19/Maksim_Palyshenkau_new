@@ -1,0 +1,78 @@
+.testimonials{
+    padding-top: 146px;
+}
+.testimonials_head{
+    text-align: center;
+}
+.testimonials_head p:first-of-type{
+    margin-bottom: 24px;
+}
+.testimonials_content{
+    margin-top: 63px;
+}
+.testimonials_content_video{
+    float: left;
+    width: 751px;
+    height: 561px;
+    background: url(../img/testimonials/play3.png) no-repeat 50% 50%,
+                url(../img/testimonials/play2.png) no-repeat 50% 50%,
+                url(../img/testimonials/play1.png) no-repeat 50% 50%,
+                linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ),
+                url(../img/testimonials/people_bg.png) no-repeat left top;
+    padding-top: 325px;
+}
+.testimonials_content_video p{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.testimonials_content_text{
+    margin-left: 809px;
+    padding-top: 81px;
+}
+.testimonials_content_text_person{
+    display: inline-block;
+    height: 161px;
+    width: 161px;
+    background: url(../img/testimonials/Millar.jpeg) no-repeat center top;
+    border-radius: 85px;
+}
+.testimonials_content_text_arrows{
+    display: inline-block;
+    height: 43px;
+    width: 122px;
+    background: url(../img/testimonials/arrows.png) no-repeat center center;
+    margin-bottom: 60px;
+    margin-left: 57px;
+}
+.testimonials_content_about_person{
+    margin-top: 29px;
+    margin-left: 18px;
+    width: 690px;
+}
+
+.testimonials_content_about_person p:first-of-type{
+    display: inline-block;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 33px;
+    margin-bottom: 57px;
+}
+.testimonials_content_about_person_name{
+    display: inline-block;
+    margin-left: 46px;
+}
+.testimonials_content_about_person_name p:first-of-type{
+    color: #112E41;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.testimonials_content_about_person_name p:last-of-type{
+    color: #888888;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}

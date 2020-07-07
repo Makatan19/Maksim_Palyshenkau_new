@@ -1,0 +1,36 @@
+.header{
+    background: #F7F7F7;
+}
+.logo{
+    float: left;
+    margin-left: 390px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #323540;
+    font-family: 'Poppins', sans-serif;
+}
+.logo p{
+    font-size: 32px;
+    font-weight: bold;
+}
+.logo span{
+    color: #FF7214;
+}
+.menu{
+    float: right;
+    margin-right: 402px;
+    margin-top: 33px;
+    text-transform: uppercase;
+    color: #323541;
+    font-family: 'Roboto', sans-serif;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+

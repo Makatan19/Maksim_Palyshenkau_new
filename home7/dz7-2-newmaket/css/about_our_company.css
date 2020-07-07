@@ -1,0 +1,49 @@
+.about_our_company{
+    background: url(../img/about_our_company/bg_grey.png) no-repeat 76px 177px,
+                url(../img/about_our_company/earth.png) no-repeat 548px 593px,
+                url(../img/about_our_company/round_violet2.png) no-repeat 1651px 726px,
+                url(../img/about_our_company/round_pink2.png) no-repeat 612px 775px;
+}
+.about_our_company_text{
+    float: right;
+    padding-top: 244px;
+    padding-right: 442px;
+}
+.about_our_company_text p:first-of-type{
+    margin-bottom: 20px;
+}
+.about_our_company_text p:nth-of-type(2){
+    color: #112E41;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.about_our_company_text p:nth-of-type(3){
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-top: 33px;
+    margin-bottom: 75px;
+}
+.about_our_company_text_dop{
+    float: left;
+    padding-left: 39px;
+    padding-top: 67px;
+}
+.about_our_company .people1{
+    background: url(../img/about_our_company/people1.png) no-repeat;
+    height: 543px;
+    width: 458px;
+    float: left;
+    margin-top: 226px;
+    margin-bottom: 100px;
+}
+
+.about_our_company .people2{
+    background: url(../img/about_our_company/people2.png) no-repeat;
+    height: 445px;
+    width: 361px;
+    float: left;
+    margin-top: 149px;
+    margin-left: 28px;
+}

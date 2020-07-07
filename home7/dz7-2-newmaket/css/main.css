@@ -1,0 +1,31 @@
+.main{
+    background: url(../img/main/square_left.png) no-repeat 91px 234px,
+                url(../img/main/round_orange.png) no-repeat 1034px 86px,
+                url(../img/main/bg_photo.png) no-repeat 1043px 28px,
+                url(../img/main/round_blue.png) no-repeat 1128px 637px,
+                url(../img/main/circle_right.png) no-repeat 1635px 24px,
+                url(../img/main/round_pink.png) no-repeat 840px 520px,
+                url(../img/main/round_viol.png) no-repeat 172px 668px
+                #F7F7F7;
+}
+.main_text{
+   float: left;
+   padding-top: 215px;
+   padding-left: 390px;
+   padding-bottom: 236px;
+}
+.main_text p:first-of-type{
+    color: #FF7214;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.main_text p:last-of-type{
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 33px;
+    margin-bottom: 53px;
+    line-height: 24px;
+}
