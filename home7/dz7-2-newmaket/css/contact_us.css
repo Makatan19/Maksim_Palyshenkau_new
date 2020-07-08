@@ -1,0 +1,74 @@
+.contact_us{
+    padding-left: 389px;
+    padding-right: 389px;
+}
+.contact_us_text{
+    display: inline-block;
+    width: 290px;
+}
+.contact_us_text .orange_title{
+    padding-top: 29px;
+}
+.contact_us_text p:nth-child(2){
+    color: #112E41;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 49px;
+}
+.contact_us_text img{
+    width: 25px;
+    height: 25px;
+    margin-right: 22px;
+    margin-bottom: -7px;
+}
+.contact_us_text .contact_us_text_details{
+    color: #888888;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 39px;
+}
+.contact_us_form{
+    float: right
+}
+.contact_us_form_phone{
+    width: 361px;
+    height: 61px;
+    border: #f6f7fb 2px solid;
+    display: inline-block;
+}
+.contact_us_form_name{
+    margin-right: 29px;
+    width: 361px;
+    height: 61px;
+    border: #f6f7fb 2px solid;
+    display: inline-block;
+}
+.contact_us_form_email{
+    width: 751px;
+    height: 61px;
+    border: #f6f7fb 2px solid;
+    margin-bottom: 29px;
+    margin-top: 29px;
+}
+.contact_us_form_message{
+    width: 751px;
+    height: 181px;
+    border: #f6f7fb 2px solid;
+}
+.contact_us_form p{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 22px;    
+}
+.contact_us_form ul{
+    text-align: center;
+    margin-top: 39px;
+}
+.contact_us_form ul li{
+    width: 186px;
+    height: 61px;
+}

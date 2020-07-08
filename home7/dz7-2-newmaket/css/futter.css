@@ -1,0 +1,15 @@
+.futter{
+    text-align: center;
+    background: #10233A;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+.futter p{
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.futter p span{
+    color: #FF7214;
+}

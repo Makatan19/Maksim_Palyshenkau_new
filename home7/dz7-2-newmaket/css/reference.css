@@ -1,0 +1,11 @@
+.reference{
+    text-align: center;
+    padding-top: 154px;
+    padding-bottom: 155px;
+}
+.reference img{
+    margin-right: 145px;
+}
+.reference img:last-child{
+    margin-right: 0;
+}

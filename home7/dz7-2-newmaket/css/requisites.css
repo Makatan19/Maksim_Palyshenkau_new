@@ -1,0 +1,127 @@
+.requisites{
+    padding-top: 120px;
+    background: #162B45;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.requisites_name{
+    vertical-align: top;
+    display: inline-block;
+    width: 249px;
+    margin-right: 46px;
+}
+.requisites_name p:first-of-type{
+    text-align: left;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.requisites_name p span{
+    color: #FF7214;
+}
+.requisites_name p:last-of-type{
+    text-align: left;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 28px;
+    line-height: 24px;
+}
+.requisites_service{
+    vertical-align: top;
+    display: inline-block;
+    width: 152px;
+    margin-right: 112px;
+}
+.requisites_service p{
+    text-align: left;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.requisites_service ul{
+    margin-top: 20px;
+    text-align: left;
+}
+.requisites_service ul li{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.requisites_inst{
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    margin-right: 58px;
+}
+.requisites_inst p{
+    text-align: left;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 39px;
+}
+.requisites_inst div{
+    text-align: left;
+    display: inline-block;
+    width: 82px;
+    height: 66px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.requisites_inst .requisites_inst_photo1{
+
+    background: url(../img/requisites/inst1.png) no-repeat left top;
+}
+.requisites_inst .requisites_inst_photo2{
+
+    background: url(../img/requisites/inst2.png) no-repeat center -39px;
+}
+.requisites_inst .requisites_inst_photo3{
+
+    background: url(../img/requisites/inst3.png) no-repeat left -40px;
+}
+.requisites_inst .requisites_inst_photo4{
+
+    background: url(../img/requisites/inst4.png) no-repeat -52px -24px;;
+}
+.requisites_inst .requisites_inst_photo5{
+
+    background: url(../img/requisites/inst5.png) no-repeat -32px center;
+}
+.requisites_inst .requisites_inst_photo6{
+
+    background: url(../img/requisites/inst6.png) no-repeat -41px -200px;
+}
+.requisites_contact{
+    line-height: 24px;
+    width: 268px;
+    vertical-align: top;
+    display: inline-block;
+}
+.requisites_contact_name{
+    text-align: left;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 39px;
+}
+.requisites_contact img{
+    height: 15px;
+    margin-right: 16px;
+    margin-bottom: -2px;
+}
+.requisites_contact_address, .requisites_contact_phone, .requisites_contact_mail{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}

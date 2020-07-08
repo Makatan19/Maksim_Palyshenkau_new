@@ -1,0 +1,99 @@
+.latest_news{
+    padding-top: 45px;
+    text-align: center;
+    margin-bottom: 149px;
+}
+.latest_news_head p:first-of-type{
+    margin-bottom: 25px;
+}
+.latest_news_all_content{
+    padding-top: 70px;
+}
+.latest_news_all_content > div{
+    display: inline-block;
+    height: 547px;
+    width: 361px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.latest_news_all_content .latest_news_content1_photo{
+    width: 361px;
+    height: 321px;
+    background: url(../img/latest_news/post1.png) no-repeat top center;
+}
+.latest_news_all_content .latest_news_content2_photo{
+    width: 361px;
+    height: 321px;
+    background: url(../img/latest_news/post2.png) no-repeat top center;
+}
+.latest_news_all_content .latest_news_content3_photo{
+    width: 361px;
+    height: 321px;
+    background: url(../img/latest_news/post3.png) no-repeat top center;
+}
+.latest_news_all_content .latest_news_content1_text{
+    text-align: left;
+    width: 361px;
+    height: 226px;
+    padding-top: 41px;
+    padding-left: 30px;
+    border-left: #f6f7fb 5px solid;
+    border-right: #f6f7fb 5px solid;
+    border-bottom: #f6f7fb 5px solid;
+}
+.latest_news_all_content .latest_news_content2_text{
+    text-align: left;
+    width: 361px;
+    height: 226px;
+    padding-top: 41px;
+    padding-left: 30px;
+    border-left: #f6f7fb 5px solid;
+    border-right: #f6f7fb 5px solid;
+    border-bottom: #f6f7fb 5px solid;
+}
+.latest_news_all_content .latest_news_content3_text{
+    text-align: left;
+    width: 361px;
+    height: 226px;
+    padding-top: 41px;
+    padding-left: 30px;
+    border-left: #f6f7fb 5px solid;
+    border-right: #f6f7fb 5px solid;
+    border-bottom: #f6f7fb 5px solid;
+}
+
+.latest_news_all_content ul li{
+    display: inline-block;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.latest_news_all_content ul li:first-of-type{
+    border-right: 1px solid #888888;
+    padding-left: 0px;
+}
+.latest_news_all_content p{
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #112E41;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.latest_news_all_content img{
+    width: 16px;
+    height: 16px;
+    margin-bottom: -3px;
+}
+.latest_news_all_content span{
+    display: inline-block;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 29px;
+}

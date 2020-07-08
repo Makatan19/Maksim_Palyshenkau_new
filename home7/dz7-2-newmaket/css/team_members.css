@@ -1,0 +1,62 @@
+.team_members{
+    padding-top: 143px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.team_members_head p:first-of-type{
+    margin-bottom: 18px;
+}
+.team_members_content{
+    padding-top: 68px;
+}
+.team_members_content div{
+    display: inline-block;
+    width: 361px;
+    height: 516px;
+    border: #f6f7fb 5px solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 350px;
+}
+.team_members_content .team_member1{
+    background: url(../img/team_members/bg_team.png) no-repeat center top,
+                url(../img/team_members/team1.png) no-repeat 50% top;
+
+}
+.team_members_content .team_member2{
+    background: url(../img/team_members/bg_team.png) no-repeat center top,
+                url(../img/team_members/team2.png) no-repeat 50% top;
+}
+.team_members_content .team_member3{
+    background: url(../img/team_members/bg_team.png) no-repeat center top,
+                url(../img/team_members/team3.png) no-repeat 50% top;
+}
+.team_members_content div p:first-of-type{
+    color: #162B45;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.team_members_content div p:last-of-type{
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 34px;
+}
+.team_members_content div ul li{
+    display: inline-block;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.team_members_content div ul li a:hover{
+    color: #FF7214;
+}
+.team_members_content div p:first-of-type:hover{
+    color: #FF7214;
+}
