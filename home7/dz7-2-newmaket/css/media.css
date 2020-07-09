@@ -1,0 +1,432 @@
+/*1200px...1919px*/
+@media all and (max-width: 1919px){
+    .container{
+        width: 1200px;
+    }
+    .logo{
+        margin-left: 90px;
+    }
+    .menu{
+        margin-right: 102px;
+    }
+    .main_text{
+        padding-left: 54px;
+        width: 420px;
+    }
+    .main{
+        background: url(../img/main/square_left.png) no-repeat 91px 83px, 
+                    url(../img/main/round_orange.png) no-repeat 534px 86px, 
+                    url(../img/main/bg_photo.png) no-repeat 424px 109px, 
+                    url(../img/main/round_blue.png) no-repeat 430px 637px, 
+                    url(../img/main/circle_right.png) no-repeat 935px 66px, 
+                    url(../img/main/round_pink.png) no-repeat 342px 520px, 
+                    url(../img/main/round_viol.png) no-repeat 171px 868px,
+                    #F7F7F7;
+    }
+    .about_our_company_text {
+        float: none;
+        padding-left: 900px;
+        padding-right: 0px;
+        padding-top: 150px;
+    }
+    .about_our_company_text_dop{
+        padding-top: 0;
+    }
+    .client_work_1, .client_work_2, .client_work_3{
+        width: 1200px;
+    }
+    .client_work_1{
+    background: url(../img/works/item1.png) no-repeat 520px top;
+    }
+    .client_work_2{
+        padding-left: 718px;
+        background: url(../img/works/item2.png) no-repeat -334px top;
+    }
+    
+    .client_work_3{
+        background: url(../img/works/item3.png) no-repeat 520px top;
+    }
+    .achievements div {
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .testimonials_content_text {
+        margin-left: 553px;
+        padding-top: 0px;
+    }
+    .testimonials_content_video {
+        width: 500px;
+        height: 374px;
+    }
+    .testimonials_content_about_person{
+    width: 599px;
+    }
+    .contact_us {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+    .requisites_service {
+        margin-right: 50px;
+    }
+}
+/*992px...1199px*/
+@media all and (max-width: 1199px){
+    .container{
+        width: 992px;
+    }
+
+    .logo{
+        margin-left: 50px;
+    }
+    .menu{
+        margin-right: 72px;
+    }
+    .main{
+        background: url(../img/main/square_left.png) no-repeat 91px 83px, 
+        url(../img/main/round_orange.png) no-repeat 498px 251px, 
+        url(../img/main/bg_photo.png) no-repeat 474px 309px/50%, 
+        url(../img/main/round_blue.png) no-repeat 430px 637px, 
+        url(../img/main/circle_right.png) no-repeat 836px 271px, 
+        url(../img/main/round_pink.png) no-repeat 341px 520px, 
+        url(../img/main/round_viol.png) no-repeat 171px 868px, 
+        #F7F7F7;
+    }
+    .main_text{
+        width: 800px;
+    }
+    .about_our_company .people1 {
+        display: inline-block;
+        float: none;
+        margin-top: 49px;
+        margin-left: 68px;
+    }
+    .about_our_company .people2 {
+        display: inline-block;
+        float: none;
+    }
+    .about_our_company{
+        background: url(../img/about_our_company/bg_grey.png) no-repeat 210px 177px,
+                    url(../img/about_our_company/earth.png) no-repeat 150px 593px, 
+                    url(../img/about_our_company/round_violet2.png) no-repeat 51px 726px, 
+                    url(../img/about_our_company/round_pink2.png) no-repeat 612px 775px;
+    }
+    .about_our_company_text{
+        padding-left: 0;
+        float: right;
+    }
+    .special_features h2{
+        margin-bottom: 78px;
+    }
+    .special_features div {
+        margin: 0 14px 100px 14px;
+    }
+    .client_work_1{
+        background: url(../img/works/item1.png) no-repeat right 43px/50%;
+        padding-top: 86px;
+    }
+    .client_work_1, .client_work_2, .client_work_3{
+        width: 992px;
+        height: 454px;
+        margin-bottom: 24px;
+    }
+    .client_work_2 {
+        padding-left: 512px;
+        background: url(../img/works/item2.png) no-repeat 0px top/50%;
+        padding-top: 17px;
+    }
+    .client_work_3 {
+        background: url(../img/works/item3.png) no-repeat 520px top/50%;
+        padding-top: 43px;
+    }
+    .testimonials_content .testimonials_content_video {
+        text-align: center;
+        float: left;
+        padding-top: 222px;
+        background: url(../img/testimonials/play3.png) no-repeat 50% 50%, 
+                    url(../img/testimonials/play2.png) no-repeat 50% 50%, 
+                    url(../img/testimonials/play1.png) no-repeat 50% 50%, 
+                    linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), 
+                    url(../img/testimonials/people_bg.png) no-repeat left top/100%;
+    }
+    .testimonials_content_text {
+        margin-left: 0px;
+        padding-top: 0px;
+        float: right;
+    }
+    .testimonials_content_about_person{
+        width: 454px;
+    }
+    .team_members_content .team_member3 {
+        margin-top: 30px;
+    }
+    .latest_news_all_content .latest_news_content3_photo {
+        margin-top: 35px;
+    }
+    .contact_us_form_name, .contact_us_form_phone{
+        width: 180px;
+    }
+    .contact_us_form_email, .contact_us_form_message{
+        width: 391px;
+    }
+    .reference img:last-child{
+        margin-bottom: -78px;
+    }
+
+}
+/*768px...991px*/
+@media all and (max-width: 991px){
+    .container{
+        width: 768px;
+    }
+    .header{
+        text-align: center;
+    }
+    .logo{
+        margin-left: 0;
+        float: none;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .menu{
+        float: none;
+        margin-right: 0;
+    }
+    .main {
+        background: url(../img/main/square_left.png) no-repeat 580px 32px/5%, 
+        url(../img/main/round_orange.png) no-repeat 479px 164px/19%, 
+        url(../img/main/bg_photo.png) no-repeat 474px 209px/30%, 
+        url(../img/main/round_blue.png) no-repeat 514px 406px/8%, 
+        url(../img/main/circle_right.png) no-repeat 636px 189px/8%, 
+        url(../img/main/round_pink.png) no-repeat 341px 520px/30%, 
+        url(../img/main/round_viol.png) no-repeat 171px 868px/30%, #F7F7F7;
+    }
+    .main_text {
+        width: 600px;
+        padding-left: 25px;
+        padding-top: 35px;
+        padding-bottom: 54px;
+    }
+    .about_our_company .people1 {
+        display: none;
+    }
+    .about_our_company .people2 {
+        display: none;
+    }
+    .about_our_company {
+        background: url(../img/about_our_company/earth.png) no-repeat 150px 370px, 
+        url(../img/about_our_company/round_violet2.png) no-repeat 51px 424px, 
+        url(../img/about_our_company/round_pink2.png) no-repeat 612px 574px;
+    }
+    .about_our_company_text {
+        float: none;
+        text-align: center;
+        padding-top: 52px;
+    }
+    .about_our_company_text_dop {
+        padding-top: 40px;
+        padding-left: 0px;
+        float: none;
+        text-align: center;
+    }
+    .special_features div {
+        margin: 0 14px 50px 14px;
+    }
+    .client_work_1, .client_work_2, .client_work_3{
+        width: 700px;
+        height: 374px;
+        margin-bottom: 24px;
+    }
+    .client_work_1 {
+        background: url(../img/works/item1.png) no-repeat right 117px/30%;
+        padding-top: 49px;
+    }
+    .client_work_2 {
+        padding-left: 229px;
+        background: url(../img/works/item2.png) no-repeat 0px 113px/30%;
+        padding-top: 17px;
+    }
+    .client_work_3 {
+        background: url(../img/works/item3.png) no-repeat 520px 126px/30%;
+        padding-top: 1px;
+    }
+    .testimonials {
+        padding-top: 61px;
+    }
+    .testimonials_content .testimonials_content_video {
+        float:none;
+        margin-left: 139px;
+    }
+    .testimonials_content_text {
+        margin-left: 163px;
+        padding-top: 42px;
+        float: none;
+    }
+    .team_member1, .team_member2{
+        margin-top: 30px;
+    }
+    .latest_news_all_content > div{
+        margin-top: 35px;
+    }
+    .latest_news_all_content .latest_news_content3_photo {
+        margin-top: 0px;
+    }
+    .reference img{
+        margin-bottom: -78px;
+    }
+    .reference img:last-child {
+        margin-bottom: 0px;
+    }
+    .reference img {
+        margin-bottom: 38px;
+    }
+    .reference {
+        padding-top: 54px;
+        padding-bottom: 55px;
+    }
+    .requisites div{
+        margin-top: 20px;
+    }
+}   
+/*320px...767px*/
+@media all and (max-width: 767px){
+    .container{
+        width: 320px;
+
+    }
+    .main{
+        background: url(../img/main/square_left.png) no-repeat 202px 32px/5%, 
+        url(../img/main/round_orange.png) no-repeat -17px 164px/19%, 
+        url(../img/main/bg_photo.png) no-repeat 215px 224px/30%, 
+        url(../img/main/round_blue.png) no-repeat 235px 306px/8%, 
+        url(../img/main/circle_right.png) no-repeat 281px 218px/8%, 
+        url(../img/main/round_pink.png) no-repeat 240px 106px/10%, 
+        url(../img/main/round_viol.png) no-repeat 171px 368px/9%, #F7F7F7;
+    }
+    h2{
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .menu ul li {
+        display: block;
+        margin-top: 10px;
+    }
+    .main_text {
+        width: 300px;
+    }
+    .main h1{
+        line-height: 34px;
+        font-size: 30px;
+    }
+    .main_text p:last-of-type{
+        display: inline-block;
+        width: 250px;
+    }
+    .main .button li{
+        margin-left: 49px;
+    }
+    .client_work_1, .client_work_2, .client_work_3 {
+        width:320px;
+        float: none;
+        text-align: center;
+    }
+    .client_work_1{
+        background: url(../img/works/item1.png) no-repeat right top/100%;
+        padding-top: 260px;
+    }
+    .client_works_all p:last-of-type{
+        width: 100%;
+    }
+    .client_work_2{
+        background: url(../img/works/item2.png) no-repeat 0px 0px/100%;
+        margin-top: 10px;
+        padding-left: 0px;
+        margin-top: 292px;
+        padding-top: 244px;
+    }
+    .client_work_3 {
+        background: url(../img/works/item3.png) no-repeat 0px 0px/100%;
+        padding-top: 301px;
+        margin-top: 249px;
+        margin-bottom: 310px;
+    }
+    .client_works_all h3{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .testimonials_content .testimonials_content_video {
+        width: 300px;
+        height: 220px;
+        margin-left: 0;
+        padding-top: 151px;
+    }
+    .testimonials_content_text {
+        margin-left: 0px;
+    }
+    .testimonials_content_about_person {
+        width: 300px;
+        margin-top: 0;
+    }
+    .team_members_content div{
+        margin-right: 0;
+        margin-left: 0;
+        width: 301px;
+        height: 484px;
+    }
+    .latest_news_all_content {
+        padding-top: 10px;
+    }
+    .latest_news_all_content > div{
+        width: 300px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .latest_news_all_content .latest_news_content1_photo{
+        width: 300px;
+    }
+    .latest_news_all_content .latest_news_content1_text{
+        width: 300px;
+    }
+    .latest_news_all_content .latest_news_content2_photo{
+        width: 300px;
+    }
+    .latest_news_all_content .latest_news_content2_text{
+        width: 300px;
+    }
+    .latest_news_all_content .latest_news_content3_photo{
+        width: 300px;
+    }
+    .latest_news_all_content .latest_news_content3_text{
+        width: 300px;
+    }
+    .latest_news {
+        margin-bottom: 25px;
+    }
+    .contact_us {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact_us_form {
+        float: none;
+    }
+    .contact_us_form_name, .contact_us_form_phone {
+        width: 120px;
+    }
+    .contact_us_form_email, .contact_us_form_message {
+        width: 269px;
+    }
+    .reference img {
+        margin-right: 0;
+    }
+    .requisites_name, .requisites_service, .requisites_inst{
+        margin-right: 0;
+    }
+    .requisites_name p:first-of-type {
+        text-align: center;
+    }
+    .requisites_inst p {
+        text-align: center;
+    }
+    .requisites_contact_name {
+        text-align: center;
+    }
+}
