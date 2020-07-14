@@ -1,0 +1,19 @@
+/*320px...768px*/
+@media all and (max-width: 768px){
+    .name_adaptiv{
+        float: none;
+        display: block;
+    }
+    li{
+        display: block;
+    }
+    .title_area{
+        margin-left: 0px;
+    }
+    select{
+        width: 99%;
+    }
+    input[name="title_name"]{
+        width: 99%;
+    }
+}

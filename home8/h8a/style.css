@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ul, li{
+    list-style-type: none;
+    display:inline-block;
+}
+textarea{
+    width: 99%;
+    height: 60px;
+}
+.clearfix, p{
+margin-bottom: 5px;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.name_adaptiv{
+    display: inline-block;
+    width: 177px;
+    float: left;
+}
+.title_area{
+    margin-left: 178px;
+}
+input[name="title_name"]{
+    width: 98%;
+}
+input[type="radio"]{
+    margin-right: 5px;
+}
