@@ -1,0 +1,29 @@
+@import "style.css";
+
+@media all and (max-width: 1024px){
+    h1{
+        font-size: 24px;
+    }
+}
+@media all and (max-width: 638px){
+    .content_img{
+        float: none;
+        display: block;
+        margin: 20px auto;
+    }
+}
+@media all and (max-width: 433px){
+    .menu{
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .menu ul li{
+        list-style-type: none;
+    }
+
+    .content{
+        margin-left: 0;
+    }
+}
