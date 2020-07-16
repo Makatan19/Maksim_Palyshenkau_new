@@ -1,0 +1,42 @@
+
+        h2{
+            padding: 10px;
+            text-align: center;
+        }
+        hr{
+            margin: 20px;
+        }
+        .check1{
+            visibility: hidden;
+        }
+        .check1::before{
+            content: url(img/smile1.gif);
+            visibility: visible;
+            position: relative;
+            top: -7px;
+        }
+        .check1:checked::before{
+            content: url(img/smile2.gif);
+        }
+        .text1{
+            color: #123456;
+        }
+        .check1:checked+.text1{
+            color: red;
+        }
+        .text_past{
+            display: none;
+        }
+        .check2:checked + label + div{
+            display: block;
+        }
+        input[name="radio"]{
+            display: none;
+        }
+        .text_past2{
+            display: none;
+        }
+        .radio + label{
+            text-decoration: underline;
+        }
+       

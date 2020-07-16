@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check</title>
+    <style>
+        body{
+            height: 5000px;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            display: inline-block;
+        }
+        .block1{
+            background-color: aqua;
+        }
+        .block2{
+            background-color: burlywood;
+        }
+        .block1:hover{
+            background-color: coral;
+        }
+        .block1:hover + .block2{
+            background: coral;
+        }
+        hr{
+            margin: 25px;
+        }
+        .block3{
+            background-color: crimson;
+        }
+        .block4{
+            background-color: darkblue;
+            position: relative;
+            left: 200px;
+            bottom: 50px;
+        }
+        .block3:hover{
+            background-color: green;
+        }
+        .block3:hover .block4{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="block1">
+    </div>
+    <div class="block2">
+    </div>
+    <hr>
+    <div class="block3">
+        <div class="block4">
+        </div>
+    </div>
+    <hr>
+</body>
+</html>
