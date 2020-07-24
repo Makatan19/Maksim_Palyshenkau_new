@@ -6,45 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Слайды 8.45a, 8.45b, 8.45c, 8.45d</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
 </head>
 <body>
-    <h2>Задание со слайда</h2>
+    <h2>Задание со слайда 8.45a</h2>
+    <div class="slide_8_45a">
         <label>
-            <input type="checkbox" class="check1">
-            <span class="text1">Щелкни меня!</span>
+            <input type="checkbox" checked>
+            <p>Запустим салют?</p>
         </label>
+    </div>
     <hr>
+    <h2>Задание со слайда 8.45b</h2>
+    <div class="slide_8_45b">
         <div>
-            <span>Однажды в студёную зимнюю пору<br>
-            Я из лесу вышел — был сильный мороз!</span>
+            <p>
+                И труд нелеп, и бестолкова праздность,<br>
+                И с плеч долой всё та же голова,
+            </p>
         </div>
-            <input id="show" type="checkbox" class="check2">
-            <label for="show">
-                <span>показать больше</span>
-            </label>
-        <div class="text_past">
-            <span>Гляжу — поднимается медленно в гору<br>
-            Лошадка, везущая хворосту воз.</span>
-        </div>
+        <input type="checkbox" id="8_45b">
+        <label for="8_45b"><span>дочитать до конца</span></label>
+        <p>
+            Когда приходит бешеная ясность,<br>
+            Насилуя притихшие слова.
+        </p>
+    </div>
     <hr>
+    <h2>Задание со слайда 8.45c</h2>
+    <div class="slide_8_45c">
         <div>
+            Отшумела злая вьюга.<br>
+            Стала ночь короче дня.<br>
+            Тёплый ветер дует с юга,<br>
+            Капли падают, звеня.
+        </div>
+        <input type="radio" name="read_more" id="read_more1" value="1">
+        <label for="read_more1">читать дальше</label>
+        <div>
+            <br>Солнце землю нагревая,<br>
+            Гонит с нашей горки лёд.<br>
+            Тает баба снеговая<br>
+            И ручьями слёзы льёт.
+        </div> 
+        <input type="radio" name="read_more" id="read_more2" value="2" checked>
+        <label for="read_more2">спрятать</label>
+    </div>
+    <hr>
+    <h2>Задание со слайда 8.45d</h2>
+    <div class="slide_8_45d">
+        <div class="first_type">
+            <input type="radio" name="type_of_steel" id="steel" value="1" checked>
+            <label for="steel">1 часть</label>
             <div>
-                <span>
-                    Однажды в студёную зимнюю пору<br>
-                    Я из лесу вышел был сильный мороз!<br>
-                </span>
-            </div>
-            <input type="radio" class="radio" name="radio" id="radio1" value="1" checked>
-            <label for="radio">показать больше</label>
-            <div class="text_past2">
-                <span>
-                    Гляжу поднимается медленно в гору<br>
-                    Лошадка, везущая хворосту воз.<br>
-                </span>
-            <input type="radio" class="radio" name="radio" id="radio2" value="2">
-            <label for="radio2">показать больше</label>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsa, temporibus 
+                quia omnis tempora voluptas voluptates praesentium aut vero dignissimos, veniam, 
+                aliquid unde velit sint maxime debitis earum. Sed, eligendi?</p>
             </div>
         </div>
+        <div class="second_type">
+            <input type="radio" name="type_of_steel" id="plast" value="2">
+            <label for="plast">2 часть</label>
+            <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in maiores 
+                voluptate sint iure. Harum incidunt laudantium assumenda soluta velit neque 
+                mollitia, aspernatur voluptate illum numquam reprehenderit maxime voluptates 
+                minus?</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
 </body>
 
 </html>

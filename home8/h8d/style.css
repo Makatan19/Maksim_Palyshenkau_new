@@ -1,42 +1,118 @@
+body{
+    height: 10000px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+        /*8.45a*/
+.slide_8_45a{
+    text-align: center;
+    height: 250px;
+}
 
-        h2{
-            padding: 10px;
-            text-align: center;
-        }
-        hr{
-            margin: 20px;
-        }
-        .check1{
-            visibility: hidden;
-        }
-        .check1::before{
-            content: url(img/smile1.gif);
-            visibility: visible;
-            position: relative;
-            top: -7px;
-        }
-        .check1:checked::before{
-            content: url(img/smile2.gif);
-        }
-        .text1{
-            color: #123456;
-        }
-        .check1:checked+.text1{
-            color: red;
-        }
-        .text_past{
-            display: none;
-        }
-        .check2:checked + label + div{
-            display: block;
-        }
-        input[name="radio"]{
-            display: none;
-        }
-        .text_past2{
-            display: none;
-        }
-        .radio + label{
-            text-decoration: underline;
-        }
-       
+.slide_8_45a input{
+    visibility: hidden;
+}
+.slide_8_45a input::before{
+    content: url(img/salut1.png);
+    visibility: visible;
+    position: relative;
+    top: 51px;
+    right: 86px;
+}
+.slide_8_45a input:checked::before{
+    content: url(img/salut2.png);
+}
+.slide_8_45a p{
+    color: red;
+    font-weight: bold;
+}
+.slide_8_45a input:checked+p{
+    color: green;
+}
+    /*8.45b*/
+.slide_8_45b, .slide_8_45c, .slide_8_45d{
+    text-align: center;
+}
+.slide_8_45b{
+    height: 130px;
+}
+.slide_8_45b label span{
+    text-decoration: underline;
+}
+.slide_8_45b label + p{
+    display: none;
+}
+.slide_8_45b input:checked+label + p{
+    display: block;
+}
+    /*8.45c*/
+.slide_8_45c{
+    height: 200px;
+}
+.slide_8_45c input{
+    display: none;
+}
+.slide_8_45c label{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.slide_8_45c label + div{
+    display: none;
+}
+.slide_8_45c input[value="1"]:checked + label + div{
+    display: block;
+}
+.slide_8_45c input[value="2"]:checked + label{
+    display: none;
+}
+.slide_8_45c input[value="1"]:checked + label{
+    display: none;
+}
+    /*8.45d*/
+.slide_8_45d{
+    margin: 0 auto;
+    width: 300px;
+    position: relative;
+    height: 200px;
+}
+.slide_8_45d input{
+    display: none;
+}
+
+.slide_8_45d .first_type label, .slide_8_45d .second_type label{
+    position: absolute;
+    cursor: pointer;
+    padding: 5px 15px 15px 15px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+.slide_8_45d .first_type label{
+    left: 20px;
+}
+.slide_8_45d .second_type label{
+    right: 20px;
+}
+.slide_8_45d .second_type div, .slide_8_45d .first_type div{
+    position: absolute;
+    visibility: hidden;
+    top: 28px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: darkseagreen;
+}
+.slide_8_45d input[value="2"]:checked + label + div{
+    visibility: visible;
+}
+.slide_8_45d input[value="1"]:checked + label + div{
+    visibility: visible;
+    z-index: 1;
+}
+.slide_8_45d input[value="2"]:checked + label{
+    background-color: darkseagreen;
+}
+.slide_8_45d input[value="1"]:checked + label{
+    background-color: darkseagreen;
+}
