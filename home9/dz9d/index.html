@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        @keyframes MyAnimation{
+            from{background: url(img/sheet.jpg) 0 0;}
+            to{background: url(img/sheet.jpg) -396px 0;}
+        }
+        .sprite{
+            width: 66px;
+            height: 135px;
+            animation: MyAnimation 1s steps(6) infinite;
+        }
+        @keyframes MyAnimation2{
+            from{background: url(img/sprite2.png) 0 0;}
+            to{background: url(img/sprite2.png) -750px 0;}
+        }
+        .sprite__2{
+            height: 245px;
+            width: 150px;
+            animation: MyAnimation2 0.5s steps(5) infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>С домашнего задания</h1>
+    <div class="sprite">
+    </div>
+    <h1>Из интернета</h1>
+    <div class="sprite__2">
+    </div>
+</body>
+</html>
