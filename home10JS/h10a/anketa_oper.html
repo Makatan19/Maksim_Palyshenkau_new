@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var second_name = prompt('Введите Вашу фамилию');
+        var name = prompt('Введите Ваше имя');
+        var patronymic = prompt('Введите Ваше отчество');
+        var pension;
+        var age = parseInt(prompt('Введите Ваш возраст'));
+        (age > 100) ? alert('Да не может быть!') : alert('Отличный возраст!')
+
+        var new__age = age + 5;
+
+        var sex = confirm('Ваш пол мужской?');
+
+        switch (sex) {
+            case true:
+                sex = 'мужской';
+                age < 62 ? pension = 'нет' : pension = 'да';
+                break;
+            case false:
+                sex = 'женский';
+                age < 57 ? pension = 'нет' : pension = 'да';
+                break;
+        }
+
+
+        alert("ваше ФИО: " + second_name + " " + name + " " + patronymic + "\n" +
+            "ваш возраст в годах: " + age + "\n" +
+            "через 5 лет вам будет: " + new__age + "\n" +
+            "ваш пол: " + sex + "\n" +
+            "вы на пенсии: " + pension)
+
+    </script>
+
+
+</body>
+
+</html>
