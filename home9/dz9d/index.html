@@ -1,39 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation</title>
     <style>
-        h1{
+        @keyframes MyAnimation1 {
+            from {
+                background: url(img/sprite2.png) 0 0;
+            }
+
+            to {
+                background: url(img/sprite2.png) -750px 0;
+            }
+        }
+
+        @keyframes MyAnimation2 {
+            0% {
+                height: 100px;
+            }
+
+            50% {
+                height: 200px;
+            }
+
+            100% {
+                height: 100px;
+            }
+        }
+
+        @keyframes MyAnimation3 {
+            0% {
+                border: #987456 20px solid;
+            }
+
+            50% {
+                border: white 20px solid;
+            }
+
+            100% {
+                border: #987456 20px solid;
+            }
+        }
+
+        @keyframes MyAnimation4 {
+            0% {
+                background-color: #258456;
+            }
+
+            50% {
+                background-color: #555888;
+            }
+
+            100% {
+                background-color: #258456;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
             text-align: center;
         }
-        @keyframes MyAnimation{
-            from{background: url(img/sheet.jpg) 0 0;}
-            to{background: url(img/sheet.jpg) -396px 0;}
+
+        .content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
-        .sprite{
-            width: 66px;
-            height: 135px;
-            animation: MyAnimation 1s steps(6) infinite;
-        }
-        @keyframes MyAnimation2{
-            from{background: url(img/sprite2.png) 0 0;}
-            to{background: url(img/sprite2.png) -750px 0;}
-        }
-        .sprite__2{
+
+        .sprite__2 {
             height: 245px;
             width: 150px;
-            animation: MyAnimation2 0.5s steps(5) infinite;
+            animation: MyAnimation1 0.5s steps(5) infinite;
+        }
+
+        .anim__1,
+        .anim__2,
+        .anim__3 {
+            display: flex;
+            width: 150px;
+            height: 100px;
+            color: white;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .anim__1 {
+            background-color: #123456;
+        }
+
+        .anim__2 {
+            background-color: #987456;
+        }
+
+        .anim__3 {
+            background-color: #258456;
+        }
+
+        .content:hover .anim__1 {
+            animation: MyAnimation2 1s infinite;
+        }
+
+        .content:hover .anim__2 {
+            animation: MyAnimation3 2s infinite;
+        }
+
+        .content:hover .anim__3 {
+            animation: MyAnimation4 3s infinite;
         }
     </style>
 </head>
+
 <body>
-    <h1>С домашнего задания</h1>
-    <div class="sprite">
-    </div>
-    <h1>Из интернета</h1>
-    <div class="sprite__2">
+    <div class="content">
+        <div class="sprite__2">
+        </div>
+        <div class="anim__1">
+        </div>
+        <div class="anim__2">
+        </div>
+        <div class="anim__3">
+        </div>
     </div>
 </body>
+
 </html>

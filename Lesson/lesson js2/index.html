@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/833b76fa15.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            background-color: burlywood;
+            height: 80px;
+            padding: 30px 0;
+            margin: 0;
+            transition: .5s;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .wrap {
+            position: relative;
+        }
+
+        .open {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            display: none;
+        }
+
+        .close {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            display: none;
+        }
+
+        @media all and (max-width: 855px) {
+            .open {
+                display: block;
+            }
+
+            ul {
+                flex-direction: column;
+                width: 200px;
+                height: auto;
+                position: absolute;
+                right: 0;
+                top: -200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div id="open" class="open" onclick="openMenu()">
+            <i class="fas fa-align-justify"></i>
+        </div>
+        <div id="close" class="close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul id="menu">
+            <li>menu</li>
+            <li>menu</li>
+            <li>menu</li>
+            <li>menu</li>
+            <li>menu</li>
+            <li>menu</li>
+        </ul>
+    </div>
+    <script>
+        function openMenu() {
+            var El = document.getElementById('menu');
+            El.style.top = 0;
+
+            var openBtn = document.getElementById('open');
+            openBtn.style.display = "none";
+
+            var closeBtn = document.getElementById('close');
+            closeBtn.style.display = "block";
+            closeBtn.style.top = "180px";
+        }
+
+        function closeMenu() {
+            var El = document.getElementById('menu');
+            El.style.top = "-200px";
+
+            var openBtn = document.getElementById('open');
+            openBtn.style.display = "block";
+
+            var closeBtn = document.getElementById('close');
+            closeBtn.style.display = "none";
+        }
+
+    </script>
+</body>
+
+</html>
