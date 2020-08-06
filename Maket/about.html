@@ -202,22 +202,22 @@
                         </div>
                     </div>
                     <div class="content__right__photo__gallery">
-                        <div class="photo__gallery1"><img src="img/about__us/gallery/photo1.png" alt="photo1"
-                                width="51px" height="51px"></div>
-                        <div class="photo__gallery2"><img src="img/about__us/gallery/photo2.png" alt="photo2"
-                                width="51px" height="51px"></div>
-                        <div class="photo__gallery3"><img src="img/about__us/gallery/photo3.png" alt="photo3"
-                                width="51px" height="51px"></div>
-                        <div class="photo__gallery4"><img src="img/about__us/gallery/photo4.png" alt="photo4"
-                                width="51px" height="51px"></div>
-                        <div class="photo__gallery5"><img src="img/about__us/gallery/photo5.png" alt="photo5"
-                                width="51px" height="51px"></div>
-                        <div class="photo__gallery6"><img src="img/about__us/gallery/photo6.png" alt="photo6"
-                                width="51px" height="51px"></div>
-                        <div class="photo__gallery7"><img src="img/about__us/gallery/photo7.png" alt="photo7"
-                                width="51px" height="51px"></div>
-                        <div class="photo__gallery8"><img src="img/about__us/gallery/photo8.png" alt="photo8"
-                                width="51px" height="51px"></div>
+                        <div class="photo__gallery1"><img id="photo1" src="img/about__us/gallery/photo1.png"
+                                alt="photo1" width="51px" height="51px" onclick="click__img1()"></div>
+                        <div class="photo__gallery2"><img id="photo2" src="img/about__us/gallery/photo2.png"
+                                alt="photo2" width="51px" height="51px" onclick="click__img2()"></div>
+                        <div class="photo__gallery3"><img id="photo3" src="img/about__us/gallery/photo3.png"
+                                alt="photo3" width="51px" height="51px" onclick="click__img3()"></div>
+                        <div class="photo__gallery4"><img id="photo4" src="img/about__us/gallery/photo4.png"
+                                alt="photo4" width="51px" height="51px" onclick="click__img4()"></div>
+                        <div class="photo__gallery5"><img id="photo5" src="img/about__us/gallery/photo5.png"
+                                alt="photo5" width="51px" height="51px" onclick="click__img5()"></div>
+                        <div class="photo__gallery6"><img id="photo6" src="img/about__us/gallery/photo6.png"
+                                alt="photo6" width="51px" height="51px" onclick="click__img6()"></div>
+                        <div class="photo__gallery7"><img id="photo7" src="img/about__us/gallery/photo7.png"
+                                alt="photo7" width="51px" height="51px" onclick="click__img7()"></div>
+                        <div class="photo__gallery8"><img id="photo8" src="img/about__us/gallery/photo8.png"
+                                alt="photo8" width="51px" height="51px" onclick="click__img8()"></div>
                     </div>
                 </div>
             </div>
@@ -294,7 +294,30 @@
         </footer>
     </div>
 
-
+    <div class="gallery__pictures gallery_img_1" id="gallery__img1">
+        <i class="fas fa-times" onclick="close_img1()"></i>
+    </div>
+    <div class="gallery__pictures gallery_img_2" id="gallery__img2">
+        <i class="fas fa-times" onclick="close_img2()"></i>
+    </div>
+    <div class="gallery__pictures gallery_img_3" id="gallery__img3">
+        <i class="fas fa-times" onclick="close_img3()"></i>
+    </div>
+    <div class="gallery__pictures gallery_img_4" id="gallery__img4">
+        <i class="fas fa-times" onclick="close_img4()"></i>
+    </div>
+    <div class="gallery__pictures gallery_img_5" id="gallery__img5">
+        <i class="fas fa-times" onclick="close_img5()"></i>
+    </div>
+    <div class="gallery__pictures gallery_img_6" id="gallery__img6">
+        <i class="fas fa-times" onclick="close_img6()"></i>
+    </div>
+    <div class="gallery__pictures gallery_img_7" id="gallery__img7">
+        <i class="fas fa-times" onclick="close_img7()"></i>
+    </div>
+    <div class="gallery__pictures gallery_img_8" id="gallery__img8">
+        <i class="fas fa-times" onclick="close_img8()"></i>
+    </div>
 
 
 
@@ -303,6 +326,7 @@
 
 
     <script src="scripts/script_index.js"></script>
+    <script src="scripts/script_about_us.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

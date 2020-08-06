@@ -207,6 +207,7 @@ body{
             .alert{
                 text-align: center;
                 font-style: italic;
+                animation: Animation__alert 1s infinite;
             }
         }
         .content__right{
@@ -255,6 +256,7 @@ body{
                 }
             }
             .content__right__photo__gallery{
+                cursor: pointer;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-evenly;
@@ -329,6 +331,62 @@ body{
     
 }
 
+.gallery__pictures{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 22;
+    i{
+        position: absolute;
+        font-size: 50px;    
+        color: #E8663C;
+        top: 100px;
+        right: 100px;
+        cursor: pointer;
+    }
+}
+.gallery_img_1{
+    display: none;
+    background: url(../../img/about__us/gallery/photo1.png) center center no-repeat,
+                rgba(0, 0, 0, 0.8);
+}
+.gallery_img_2{
+    display: none;
+    background: url(../../img/about__us/gallery/photo2.png) center center no-repeat,
+                rgba(0, 0, 0, 0.8);
+}
+.gallery_img_3{
+    display: none;
+    background: url(../../img/about__us/gallery/photo3.png) center center no-repeat,
+                rgba(0, 0, 0, 0.8);
+}
+.gallery_img_4{
+    display: none;
+    background: url(../../img/about__us/gallery/photo4.png) center center no-repeat,
+                rgba(0, 0, 0, 0.8);
+}
+.gallery_img_5{
+    display: none;
+    background: url(../../img/about__us/gallery/photo5.png) center center no-repeat,
+                rgba(0, 0, 0, 0.8);
+}
+.gallery_img_6{
+    display: none;
+    background: url(../../img/about__us/gallery/photo6.png) center center no-repeat,
+                rgba(0, 0, 0, 0.8);
+}
+.gallery_img_7{
+    display: none;
+    background: url(../../img/about__us/gallery/photo7.png) center center no-repeat,
+                rgba(0, 0, 0, 0.8);
+}
+.gallery_img_8{
+    display: none;
+    background: url(../../img/about__us/gallery/photo8.png) center center no-repeat,
+                rgba(0, 0, 0, 0.8);
+}
 
 
 
@@ -387,6 +445,12 @@ body{
             text-align: center;
         }
     }
+    .gallery__pictures{
+        i{
+        top: 20px;
+        right: 20px;
+        }
+    }
 }
 
 @media all and (max-width: 590px){  
@@ -416,6 +480,9 @@ body{
                 align-items: center;
             }
         }
+    }
+    .gallery__pictures{
+        background-size: 75%;
     }
 }
 
@@ -452,4 +519,11 @@ body{
     }
 }
 
-
+@keyframes Animation__alert{
+    from { box-shadow: 0 0 0 white inset; 
+    }
+    50% { box-shadow: 0 0 20px white inset; 
+    }
+    to { box-shadow: 0 0 0 white inset; 
+    }
+}
