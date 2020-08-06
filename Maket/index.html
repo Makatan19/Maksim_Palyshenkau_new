@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Jetro</title>
+    <link rel="stylesheet" href="style/style_index/style.css">
     <link rel="stylesheet" href="fonts/BebasNeueRegular/font.css">
     <link rel="stylesheet" href="fonts/BebasNeueBold/font.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="fonts/MyriadPro/font.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
 </head>
 
@@ -20,31 +22,42 @@
         <div class="wrap">
             <header>
                 <div class="logo animate__animated animate__heartBeat">
-                    <a href="#">
+                    <a href="index.html">
                         <span>JET</span><span>RO</span>
                     </a>
                 </div>
                 <nav>
                     <ul>
-                        <li><a class="home__btn" href="#">Home</a></li>
-                        <li><a class="about__btn" href="#">Abouts US</a></li>
+                        <li><a class="home__btn" href="index.html">Home</a></li>
+                        <li><a class="about__btn" href="about.html">Abouts US</a></li>
                         <li><a class="blog__btn" href="#">Blog</a></li>
                         <li><a class="portfolio__btn" href="#">Portfolio</a></li>
                         <li><a class="contact__btn" href="#">Contact us</a></li>
                     </ul>
                 </nav>
+                <div class="nav__burger" id="nav__burger">
+                    <ul>
+                        <li><a class="home__btn" href="index.html">Home</a></li>
+                        <li><a class="about__btn" href="about.html">Abouts US</a></li>
+                        <li><a class="blog__btn" href="#">Blog</a></li>
+                        <li><a class="portfolio__btn" href="#">Portfolio</a></li>
+                        <li><a class="contact__btn" href="#">Contact us</a></li>
+                        <div class="close" id="close" onclick="click__close()"><i class="fas fa-times"></i></div>
+                    </ul>
+                </div>
+                <div class="open" id="open" onclick="click__open()"><i class="fas fa-bars"></i></div>
             </header>
         </div>
         <section class="slider__block">
             <div class="before__slider"></div>
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active" id="slide1"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -110,12 +123,12 @@
         </section>
         <div class="wrap">
             <section class="preview">
-                <div class="preview__img1"></div>
-                <div class="preview__img2"></div>
-                <div class="preview__img3"></div>
-                <div class="preview__img4"></div>
-                <div class="preview__img5"></div>
-                <div class="preview__img6"></div>
+                <div class="preview__img1" id="preview1" onclick="click__slider1()"></div>
+                <div class="preview__img2" id="preview2" onclick="click__slider2()"></div>
+                <div class="preview__img3" id="preview3" onclick="click__slider3()"></div>
+                <div class="preview__img4" id="preview4" onclick="click__slider4()"></div>
+                <div class="preview__img5" id="preview5" onclick="click__slider5()"></div>
+                <div class="preview__img6" id="preview6" onclick="click__slider6()"></div>
             </section>
             <section class="links">
                 <div class="link">
@@ -304,7 +317,7 @@
 
 
 
-
+    <script src="scripts/script_index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
